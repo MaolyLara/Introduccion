@@ -5,7 +5,7 @@ from django.views.generic import View
 
 class BlogListView(View):
     def get(self, request, *args, **kwargs):
-        context={
-            
+        context={  
+               
         }
     return render(request, 'blog_list.htlm', context)
