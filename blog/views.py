@@ -8,4 +8,4 @@ class BlogListView(View):
         context={  
                
         }
-    return render(request, 'blog_list.htlm', context)
+        return render(request, 'blog_list.html', context)
