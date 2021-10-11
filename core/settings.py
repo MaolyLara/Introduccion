@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'blog',
 
     'tailwind',
-    'theme',
+    'theme'
 ]
 
 TAILWIND_APP_NAME = 'theme'
@@ -55,7 +55,7 @@ INTERNAL_IPS = [
     "127.0.0.1",
 ]
 
-NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
+NPM_BIN_PATH = r"C:\Program Files (x86)\nodejs\npm.cmd"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
